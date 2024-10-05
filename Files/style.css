@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Basic Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: "open-sans", sans-serif;
+    scroll-behavior: smooth;
+    font-size: 10px;
+
+}
+body{
+    overflow-x: hidden; 
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+/* .main-body
+{
+    max-width: 110rem;
+    width: 100%;
+    margin: auto;
+} */
+
+
+#navbar-title{
+    color: white;
+    font-size: 25px;
+}
+
+.Items{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table{
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img{
+    height: 64px;
+}
+
+.Item-tag{
+    font-size: 14px;
+}
+
+.Item-tag:hover{
+    color: #806BDC;
+}
+
+
+.Shopping-container{
+    background-color: lightgrey;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Shopping-container > h2{
+    font-size: 30px;
+}
+#shopping-time-img{
+    margin-top: 30px;
+    width: 90vw;
+    height: 60vh;
+}
+
+.Sales-table{
+    width: 90vw;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Snacks
+{
+    padding-top: 25px;
+    margin-top: 20px;
+}
+
+.Sales-table-head{
+    background-color: #806BDC;
+}
+/*  */
